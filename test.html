@@ -1,0 +1,30 @@
+<!DOCTYPE />
+<html>
+
+<head>
+    <title>Reflex Feedback Widget Test Page</title>
+
+    <script type="text/javascript" src="jq/jquery-1.4.4.min.js"></script>   
+    <link type="text/css" href="jq/style/theme/jquery-ui-1.8.10.custom.css" rel="stylesheet" />	
+    <script type="text/javascript" src="jq/jquery-ui-1.8.10.custom.min.js"></script>
+
+    <style type="text/css">
+        * {  font-size:13px; }
+    </style>
+
+    <script type="text/javascript" src="reflex.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function ()
+        {
+            Reflex.init($('body'), 'controller/post_feedback.php');
+        });
+
+    </script>
+
+</head>
+    
+<body>
+</body>
+
+</html>
